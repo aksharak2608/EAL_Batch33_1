@@ -33,6 +33,7 @@ public class fbelements {
 		for(WebElement d1:dayoption)
 		{
 			System.out.println(d1.getText());
+		//fdsfsfs
 		}
 		
 	//	day.selectByIndex(10);

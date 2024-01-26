@@ -7,4 +7,10 @@
        <class name="selenium6.jsclick"/>
     </classes>
   </test> <!-- Test -->
+  <test thread-count="5" name="2">
+    <classes>
+      <class name="selenium6.NewTestwithfailandskipped"/>
+       <class name="selenium6.jsclick"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
