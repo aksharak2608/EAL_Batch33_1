@@ -26,7 +26,7 @@ public class amazontest {
   @BeforeClass
   public void beforeClass() {
 	  driver=utilis.Ibrowser("chrome", "https://www.Amazon.com/");
-	  entercapcha();
+	 //entercapcha();
 	  driver.findElement(By.xpath("//a[@id='nav-logo-sprites' or @id='nav-bb-logo']")).click();
   }
 

@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium6.amazonecapc">
+      <class name="selenium7.jsclick">
         <methods>
+          <include name="Ibrowser"/>
           <include name="f"/>
+          <include name="Screenshots"/>
         </methods>
-      </class> <!-- selenium6.amazonecapc -->
+      </class> <!-- selenium7.jsclick -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
